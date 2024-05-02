@@ -1,4 +1,3 @@
-
 /* CSS untuk navbar */
 .navbar-nav {
   display: flex;
@@ -43,21 +42,16 @@
 /* Media queries untuk perangkat seluler */
 @media (max-width: 768px) {
   .navbar-nav {
-      justify-content: center; /* Pusatkan link navbar */
+    justify-content: center; /* Pusatkan link navbar */
+    padding: 5px; /* Reduce padding for smaller screens */
   }
 
   .navbar-nav .nav-link {
-      flex: 0 0 auto; /* Atur lebar link sesuai konten */
+    flex: 0 0 auto; /* Atur lebar link sesuai konten */
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+
+  .card {
+    padding: 20px; /* Add padding to cards for better spacing */
   }
 }
-
-
-  #copyright {
-    text-align: center;
-    width: 100%;
-    padding: 50px 0px 50px 0px;
-    margin-top: 50px;
-    color: rgb(0, 0, 0);
-}
-
-
